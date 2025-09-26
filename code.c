@@ -1,0 +1,20 @@
+#include<stdio.h>
+int add(int x,int y);
+int add(int num1,int num2)
+{
+int result;
+result=num1+num2;
+return(result);
+}
+int main()
+{
+int num1,num2,result;
+printf("enter the first number to add");
+scanf("%d",&num1);
+printf("enter the second number to add");
+scanf("%d",&num2);
+result=add(num1,num2);
+printf("result of addiction is %d",result);
+return(0);
+}
+
