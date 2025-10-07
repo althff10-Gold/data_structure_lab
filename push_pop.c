@@ -32,7 +32,6 @@ void pop()
 
 void display()
 {
-	if(
 		printf("STACK elements: ");
 		for (int i = TOP; i >= 0; i--)
 		{
