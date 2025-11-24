@@ -74,7 +74,7 @@ void merge_array(int arr1[], int arr2[], int arr3[], int sze1, int sze2)
 	printf("sorted second array: ");
 	display(arr2, num2);
 	
-	printf("merged array;");
+	printf("merged array: ");
 	merge_array(arr1,arr2,arr3,num1,num2);
 	sort_array(arr3,num1+num2);
 	display(arr3,num1+num2);
